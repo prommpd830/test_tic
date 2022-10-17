@@ -1,0 +1,1 @@
+SELECT cars.brand, CONCAT(cars.type, ' : ', cars.price) FROM `cars` GROUP BY cars.brand ORDER BY cars.price ASC;
